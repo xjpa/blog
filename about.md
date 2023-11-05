@@ -53,7 +53,7 @@ Your browser does not support the audio element.
 </audio>
 <div id="image-container">
   <div id="image-0" class="image" style="background-image:url('./photos/skiface.jpg'); display: block;"></div>
-  <div id="image-1" class="image" style="background-image:url('./photos/jetski.jpeg');"></div>
+  <div id="image-1" class="image" style="background-image:url('./photos/me-101.jpg');"></div>
   <div id="image-2" class="image" style="background-image:url('./photos/some_place.jpg');"></div>
   <div id="image-3" class="image" style="background-image:url('./photos/field.jpeg');"></div>
 	</div>

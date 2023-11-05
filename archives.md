@@ -16,11 +16,13 @@ title: Archives
 {% if site.posts != empty %}
 
 {% for post in site.posts %}
+{% if post.tags contains 'hacking' %}
+{% continue %}
+{% endif %}
+
 {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
 {% unless year == this_year %}
 {% assign year = this_year %}
-{% unless post == site.posts.first %}
-{% endunless %}
 
 <p><strong>{{ year }}</strong></p>
 {% endunless %}

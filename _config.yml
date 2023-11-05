@@ -13,6 +13,10 @@ plugins: ['jekyll-paginate', 'jekyll-gist', 'jekyll-feed']
 
 paginate: 5
 
+collections:
+  hacking:
+    output: true
+
 logo: '/assets/jpalogo.png'
 disqus_shortname:
 

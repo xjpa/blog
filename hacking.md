@@ -25,17 +25,15 @@ Just as each strike of the hammer hones the sword, it also forges the swordsmith
 </style>
 
 <div class="project-table">
-{% assign projects_posts = site.posts | where_exp: "post", "post.tags contains 'hacking'" | sort: "date" | reverse %}
+{% assign projects_posts = site.hacking | sort: "date" | reverse %}
 {% for post in projects_posts %}
     <div class="project-row">
         <div class="project-cell">{{ post.date | date: "%B %d, %Y" }}</div>
         <!-- <div class="project-cell">{{ post.date | date: "%Y-%m-%d" }}</div> -->
-        <div class="project-cell"><a href="{{ post.url }}">{{ post.title }}</a></div>
+        <div class="project-cell"><a href="{{ site.baseurl }}{{ post.url | relative_url }}">{{ post.title }}</a></div>
         <div class="project-cell">{{ post.description }}</div>
     </div>
-
 {% endfor %}
-
 </div>
 
 <p></p>
