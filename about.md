@@ -62,6 +62,6 @@ Your browser does not support the audio element.
 	<big><strong>Hello!</strong></big> I'm John, but my friends call me Ice
 </p>
 <p>I'm into complex systems: Software and Economics</p>
-<p>This is my (empty) blog, I write about <a href="https://dataintensive.net/">systems</a> & <a href="https://www.youtube.com/watch?v=mwsFoV6Imb0">travel</a></p>
+<p>Currently this blog is (empty) :O</p>
 <p>I'll be later moving my posts from my older blog to here</p>
 <p>Feel free to send emails at &lt;<code>j+p@johnamata.com</code>&gt;</p>
