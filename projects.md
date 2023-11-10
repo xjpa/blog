@@ -35,7 +35,9 @@ hr {
 
     </style>
 
-<center><h1> Projects</h1></center>
+<center><h1> Projects</h1>
+<p>other fun stuff at <code>/<a href="/hacking">hacking</a></code></p>
+</center>
 
 ---
 
