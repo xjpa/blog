@@ -3,7 +3,7 @@ layout: post
 title: 'Gladiator Portfolio'
 description: 'building an infinite terrain generator for my portfolio site'
 category: articles
-tags: [hacking, javascript]
+tags: [hacking, javascript, project-web]
 comments: true
 ---
 

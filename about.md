@@ -54,14 +54,12 @@ Your browser does not support the audio element.
 <div id="image-container">
   <div id="image-0" class="image" style="background-image:url('./photos/skiface.jpg'); display: block;"></div>
   <div id="image-1" class="image" style="background-image:url('./photos/me-101.jpg');"></div>
-  <div id="image-2" class="image" style="background-image:url('./photos/some_place.jpg');"></div>
-  <div id="image-3" class="image" style="background-image:url('./photos/field.jpeg');"></div>
+  <div id="image-2" class="image" style="background-image:url('./photos/field.jpeg');"></div>
+  <div id="image-3" class="image" style="background-image:url('./photos/some_place.jpg');"></div>
 	</div>
 
 <p align="justify">
 	<big><strong>Hello!</strong></big> I'm John, but my friends call me Ice
 </p>
-<p>I'm into complex systems: Software and Economics</p>
-<p>Currently this blog is (empty) :O</p>
-<p>I'll be later moving my posts from my older blog to here</p>
+<p><a href="https://www.theregister.com/2022/11/16/musk_twitter_ultimatum/" target="_blank">hardcore</a>, <a href="https://web.archive.org/web/20231020192708/https://www.paulgraham.com/gba.html" target="_blank">hacker</a> learning to be <a href="https://steve-yegge.blogspot.com/2008/06/done-and-gets-things-smart.html" target="_blank">done and get things smart</a></p>
 <p>Feel free to send emails at &lt;<code>j+p@johnamata.com</code>&gt;</p>

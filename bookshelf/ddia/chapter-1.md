@@ -7,9 +7,13 @@ title: Designing Data Intensive Applications
 
 ---
 
-The book is too compact to write notes of. The book reads like a cliff notes page itself. Thus I will take a different approach here in that my book notes will just contain questions I use to review the book and explore the topics mentioned deeper.
+<h1>The Essentials</h1>
+
+Things that should be put into memory.
 
 <h1>Questions to Ask</h1>
+
+The book is too compact to write notes of. The book reads like a cliff notes page itself. Thus I will take a different approach here in that my book notes will just contain questions I use to review the book and explore the topics mentioned deeper.
 
 - What is the primary distinction between data-intensive and compute-intensive applications?
 

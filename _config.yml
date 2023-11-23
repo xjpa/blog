@@ -16,6 +16,8 @@ paginate: 5
 collections:
   hacking:
     output: true
+  daysofcode:
+    output: true
 
 logo: '/assets/jpalogo.png'
 disqus_shortname:

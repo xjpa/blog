@@ -7,7 +7,9 @@ title: Designing Data Intensive Applications
 
 <img src="/photos/books/ddia.jpeg" height ="300">
 
-Here's a pic of my old copy
+Going through this book thanks to a class from my school
+
+Here's a pic of my old copy, lol the front got weathered down so bad, will order a new one later
 
 <img src="https://xjpa-assets-2023.netlify.app/pics/ddia/ddia-book.jpeg">
 
@@ -19,8 +21,12 @@ My friends at staff engineer level and above are still learning from this book a
 
 ## Notes
 
-- Chapter 1 - Reliable, Scalable, and Maintainable Applications (<a href="/bookshelf/ddia/chapter-1">link</a>)
+## Chapter 1 - Reliable, Scalable, and Maintainable Applications
 
-- Chapter 2 - Data Models and Query Languages (<a href="/bookshelf/ddia/chapter-2">link</a>)
+Notes: <a href="/bookshelf/ddia/chapter-1">link</a>
+
+## Chapter 2 - Data Models and Query Languages
+
+Notes: (<a href="/bookshelf/ddia/chapter-2">link</a>)
 
 <a href="/bookshelf">⬅️ back to bookshelf</a>

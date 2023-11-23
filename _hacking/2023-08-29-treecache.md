@@ -3,7 +3,7 @@ layout: post
 title: 'TreeCache'
 description: 'simple in-memory NoSQL-like database'
 category: articles
-tags: [hacking]
+tags: [hacking, project-data]
 comments: true
 ---
 

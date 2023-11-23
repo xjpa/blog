@@ -22,6 +22,7 @@ title: Bookshelf
 <h2>Systems</h2>
 <p></p>
 <p></p>
+<a href="/bookshelf/dbinternals" target="_blank"> <img src="/photos/books/db-internals.jpg" height="300"></a>
 <a href="/bookshelf/ddia" target="_blank"> <img src="/photos/books/ddia.jpeg" height="300"></a>
 <a href="/bookshelf/web-scalability-for-startup-engineers" target="_blank"> <img src="/photos/books/web-scalability-for-startup-engineers.jpeg" height="300"></a>
 <a href="/bookshelf/understanding-distributed-systems" target="_blank"> <img src="https://m.media-amazon.com/images/I/71rlI0H7QsL._SY522_.jpg" height="300"></a>

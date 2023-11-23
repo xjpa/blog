@@ -3,7 +3,7 @@ layout: default
 title: TODO
 ---
 
-Some of my todo for 2022
+TODO
 
 ## Courses
 
@@ -25,7 +25,7 @@ Some of my todo for 2022
 
 - The Lost Leonardo, 2021
 
-## Movies to Watch 2022
+## Movies to Watch
 
 ⭐ -- those that I extremely enjoyed
 
@@ -60,7 +60,7 @@ Some of my todo for 2022
 - The Grey, 2011
 - The Rover, 2014
 - ✅ Mile 22, 2018
-- ✅ The Coldest Game, 2019  
+- ✅ The Coldest Game, 2019
 - ✅ Hotel Mumbai, 2019
 - ✅ Richard Jewell, 2019
 - ✅ The Heiress, 2019 (filipino horror)
@@ -96,7 +96,6 @@ Some of my todo for 2022
 - ✅ The Adam Project, 2022
 - Triangle of Sadness, 2022
 - ✅ Avatar 2, 2022
-
 
 ## TV Series
 

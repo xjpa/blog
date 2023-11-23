@@ -7,4 +7,5 @@ _site/
 .bundle/
 vendor/
 drafts/
-_posts/
+_hacking/
+_daysofcode/
