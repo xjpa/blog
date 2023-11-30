@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '100 Days of Code: Winter Training Arc'
-description: 'a'
+description: 'Let the winter campaign begin'
 category: articles
 tags: [days-of-code, grind]
 comments: true

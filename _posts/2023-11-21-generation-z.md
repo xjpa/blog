@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'GENERATION Z'
-description: 'a'
+description: 'With or without you, the future is coming. Position yourself.'
 category: articles
 tags: [grind]
 comments: true
