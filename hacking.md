@@ -7,6 +7,10 @@ title: Hacks
 
 Just as each strike of the hammer hones the sword, it also forges the swordsmith, enhancing their sharpness and resilience. Thus let us create[1]. For when we create, we are also creating ourselves.
 
+<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/511910196&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"></div>
+
+<p></p>
+
 <style>
 .project-table {
     display: table;
@@ -22,7 +26,39 @@ Just as each strike of the hammer hones the sword, it also forges the swordsmith
     display: table-cell;
     vertical-align: top;
 }
+#searchInput {
+    width: 100%;
+    padding: 10px; 
+    font-size: 16px; 
+    border: 1px solid #ccc; 
+}
 </style>
+
+<input type="text" id="searchInput" placeholder="Search projects...">
+<script>
+document.getElementById('searchInput').addEventListener('keyup', function() {
+    // split search query into keywords
+    var searchQuery = this.value.toLowerCase().split(' '); 
+    var projects = document.querySelectorAll('.project-row');
+    projects.forEach(function(project) {
+        var dateCell = project.querySelectorAll('.project-cell')[0]; // [0] --> date cell
+        var titleCell = project.querySelectorAll('.project-cell')[1];
+        var descriptionCell = project.querySelectorAll('.project-cell')[2];
+        var date = dateCell ? dateCell.textContent.toLowerCase() : '';
+        var title = titleCell ? titleCell.textContent.toLowerCase() : '';
+        var description = descriptionCell ? descriptionCell.textContent.toLowerCase() : '';
+        // check every keyword against date, title, description
+        var match = searchQuery.every(function(keyword) {
+            return date.includes(keyword) || title.includes(keyword) || description.includes(keyword);
+        });
+        if (match) {
+            project.style.display = '';
+        } else {
+            project.style.display = 'none';
+        }
+    });
+});
+</script>
 
 <div class="project-table">
 {% assign projects_posts = site.hacking | sort: "date" | reverse %}
