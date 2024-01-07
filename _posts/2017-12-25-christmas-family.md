@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Christmas with the Family"
+title: 'Christmas with the Family'
 description: A series of photos
 category: articles
-tags: [travel]
+tags: [travel, family]
 comments: true
 ---
 

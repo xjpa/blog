@@ -6,10 +6,10 @@ title: Archives
 <div class="listing">
 
 <center>
-<h1>All posts</h1>
+<h1>Main Posts</h1>
 </center>
 
-<p>alternatively, here's a list sorted in <a href="{{ "/tags" | prepend: site.url }}">tags/categories</a></p>
+<p>alternatively, to see all posts, here's a list sorted in <a href="{{ "/tags" | prepend: site.url }}">tags/categories</a></p>
 
 <ul class="tags-box">
 

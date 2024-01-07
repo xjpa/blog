@@ -6,7 +6,7 @@ layout: default
   <div class="tags-expo-list">
     <p>Tags</p>
     <ul>
-      {% assign all_posts = site.posts | concat: site.hacking | concat: site.daysofcode %}
+      {% assign all_posts = site.posts | concat: site.hacking | concat: site.algorithms | concat: site.python %}
       {% assign tag_items = "" %}
 
       {% for post in all_posts %}

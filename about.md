@@ -62,4 +62,5 @@ Your browser does not support the audio element.
 	<big><strong>Hello!</strong></big> I'm John, but my friends call me Ice
 </p>
 <p><a href="https://www.theregister.com/2022/11/16/musk_twitter_ultimatum/" target="_blank">hardcore</a>, <a href="https://web.archive.org/web/20231020192708/https://www.paulgraham.com/gba.html" target="_blank">hacker</a> learning to be <a href="https://steve-yegge.blogspot.com/2008/06/done-and-gets-things-smart.html" target="_blank">done and get things smart</a></p>
+<p>i started this blog because <a href="https://jsomers.net/blog/more-people-should-write" target="_blank">writing makes you more curious</a></p>
 <p>Feel free to send emails at &lt;<code>j+p@johnamata.com</code>&gt;</p>

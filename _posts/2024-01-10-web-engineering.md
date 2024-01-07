@@ -1,15 +1,21 @@
 ---
-layout: default
-title: Hacks
+layout: post
+title: 'Elements of Web Engineering'
+description: 'The quest to become hardcore'
+category: articles
+tags: [web]
+comments: true
 ---
 
-<h1>Hacking[0]</h1>
+I'm learning JS stack web development, and this post will be a complete collection of links towards my notes from learning the basics of HTML to backend engineering.
 
-Just as each strike of the hammer hones the sword, it also forges the swordsmith, enhancing their sharpness and resilience. Thus let us create[1]. For when we create, we are also creating ourselves.
+[<img src="/photos/2023/tower-of-babel.jpeg">](<https://en.wikipedia.org/wiki/The_Tower_of_Babel_(Bruegel)>)
 
-<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/511910196&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"></div>
+<!-- more -->
 
-<p></p>
+Like all posts on this blog, this is more to serve as my personal wiki, my second brain. So if you somehow stumbled upon this website, forgive my formatting of the notes - although I am sometimes using this as well as an exercise to get better in writing and technical communication.
+
+# The Journey
 
 <style>
 .project-table {
@@ -33,8 +39,7 @@ Just as each strike of the hammer hones the sword, it also forges the swordsmith
     border: 1px solid #ccc; 
 }
 </style>
-
-<input type="text" id="searchInput" placeholder="Search projects...">
+<input type="text" id="searchInput" placeholder="Search posts...">
 <div id="resultCount"></div>
 <p></p>
 <script>
@@ -72,14 +77,14 @@ var description = descriptionCell ? descriptionCell.textContent.toLowerCase() : 
             }
         });
         var resultText = searchQuery.join('').length === 0 ? 'Total of ' : 'Showing ';
-        document.getElementById('resultCount').textContent = resultText + count + ' projects';
+        document.getElementById('resultCount').textContent = resultText + count + ' posts';
     }
 
 });
 </script>
 
 <div class="project-table">
-{% assign projects_posts = site.hacking | sort: "date" | reverse %}
+{% assign projects_posts = site.web | sort: "date" | reverse %}
 {% for post in projects_posts %}
     <div class="project-row">
         <div class="project-cell">{{ post.date | date: "%B %d, %Y" }}</div>
@@ -89,13 +94,3 @@ var description = descriptionCell ? descriptionCell.textContent.toLowerCase() : 
     </div>
 {% endfor %}
 </div>
-
-<p></p>
-
-<figure>
-<img src="/photos/Jobs-and-Woz.webp">
-</figure>
-
-- [0] See Paul Graham's [The Word "Hacker"](https://archive.is/9MloV)
-- [1] For why I started this, see my blog post [If You're Depressed, Build Something](/articles/2023/08/16/build)
-- [`photo`] steve jobs and wozniak

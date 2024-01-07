@@ -13,28 +13,19 @@ title: Bookshelf
 <h2>Computation</h2>
 <p></p>
 
-<a href="/bookshelf/book-of-proof" target="_blank"> <img src="/photos/books/book-of-proof.jpeg" height ="300"></a>
+<a href="/bookshelf/calculate" target="_blank"> <img src="/photos/books/how-to-calculate-quickly.jpeg" height="300"></a>
+<a href="/bookshelf/aop" target="_blank"> <img src="/photos/books/all-of-programming.jpeg" height="300"></a>
 <a href="/bookshelf/htdp2" target="_blank"> <img src="/photos/books/htdp2.jpg" height="300"></a>
 
-</div>
-
-<div>
-<h2>Systems</h2>
-<p></p>
-<p></p>
-<a href="/bookshelf/dbinternals" target="_blank"> <img src="/photos/books/db-internals.jpg" height="300"></a>
-<a href="/bookshelf/ddia" target="_blank"> <img src="/photos/books/ddia.jpeg" height="300"></a>
-<a href="/bookshelf/web-scalability-for-startup-engineers" target="_blank"> <img src="/photos/books/web-scalability-for-startup-engineers.jpeg" height="300"></a>
-<a href="/bookshelf/understanding-distributed-systems" target="_blank"> <img src="https://m.media-amazon.com/images/I/71rlI0H7QsL._SY522_.jpg" height="300"></a>
-<a href="/bookshelf/building-low-latency-apps-cpp" target="_blank"> <img src="/photos/books/building-low-latency-applications-cpp.jpeg" height="300"></a>
 </div>
 
 <div>
 <h2>Software Engineering</h2>
 <p></p>
 <p></p>
-<a href="/bookshelf/for-the-love-of-go" target="_blank"> <img src="/photos/books/for-the-love-of-go.png" height="300"></a>
-<a href="/bookshelf/webdev-with-go" target="_blank"> <img src="/photos/books/webdev-with-go.jpeg" height ="300"></a>
+<a href="/bookshelf/ddia" target="_blank"> <img src="/photos/books/ddia.jpeg" height="300"></a>
+<a href="/bookshelf/web-scalability-for-startup-engineers" target="_blank"> <img src="/photos/books/web-scalability-for-startup-engineers.jpeg" height="300"></a>
+<a href="/bookshelf/understanding-distributed-systems" target="_blank"> <img src="https://m.media-amazon.com/images/I/71rlI0H7QsL._SY522_.jpg" height="300"></a>
 <a href="/bookshelf/mythical-man-month" target="_blank"> <img src="/photos/books/mythical-man-month.jpeg" height ="300"></a>
 </div>
 
@@ -73,6 +64,19 @@ title: Bookshelf
 
 <a href="/bookshelf/enders-game" target="_blank"><img src="/photos/books/enders-game.jpeg" height ="300"></a>
 <a href="/bookshelf/the-way-of-kings" target="_blank"><img src="/photos/books/the-way-of-kings.jpg" height ="300"></a>
+
+</div>
+
+<div>
+<h2>To-do</h2>
+<p></p>
+
+<p>Books I plan to start reading in the future</p>
+
+<a href="https://www.amazon.com/There-No-Antimemetics-Division-qntm/dp/B0915M7T61" target="_blank"><img src="/photos/books/there-is-no-antimemetics-division.jpeg" height ="300"></a>
+<a href="/bookshelf/eop" target="_blank"> <img src="/photos/books/elements-of-programming.jpeg" height ="300"></a>
+
+<a href="/bookshelf/effective-thinking" target="_blank"><img src="/photos/books/effective-thinking.jpeg" height ="300"></a>
 
 </div>
 

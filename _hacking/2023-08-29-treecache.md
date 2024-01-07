@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'TreeCache'
-description: 'simple in-memory NoSQL-like database'
+description: 'simple in-memory database in JS'
 category: articles
 tags: [hacking, project-data]
 comments: true

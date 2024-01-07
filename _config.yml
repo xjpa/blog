@@ -17,6 +17,14 @@ collections:
     output: true
   daysofcode:
     output: true
+  algorithms:
+    output: true
+  backend:
+    output: true
+  web:
+    output: true
+  python:
+    output: true
 
 logo: '/assets/jpalogo.png'
 disqus_shortname:

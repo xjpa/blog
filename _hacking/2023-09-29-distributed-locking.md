@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Distributed Locking Counter'
-description: 'implementing the concept of distributed locking to a toy counter'
+description: 'implementing the concept of distributed locking to a toy counter in python'
 category: articles
 tags: [hacking, python, project-distributed-systems]
 comments: true
