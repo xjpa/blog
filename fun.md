@@ -3,8 +3,6 @@ layout: default
 title: Fun
 ---
 
-# `/fun`
-
 <style>
 .gallery {
     display: grid;
@@ -13,69 +11,107 @@ title: Fun
 }
 
 .photo {
-background: #f8f8f8;
-padding: 5px;
-text-align: center;
-overflow: hidden;
-position: relative;
-cursor: pointer;
-transition: box-shadow 0.3s ease;
+    background: #f8f8f8;
+    padding: 5px;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
 }
 
 .photo img {
-width: 100%;
-height: 200px;
-object-fit: cover;
-transition: transform 0.3s ease;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
 }
 
 .photo p {
-margin: 10px 0 0;
-font-size: 0.9em;
-color: #333;
+    margin: 10px 0 0;
+    font-size: 0.9em;
+    color: #333;
 }
 
 .photo:hover {
-box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
 }
 
 .photo:hover img {
-transform: scale(1.05);
+    transform: scale(1.05);
 }
 
 .photo:nth-child(3n+1) {
-border: 3px;
+    border: 3px;
 }
 .photo:nth-child(3n+2) {
-border: 3px;
+    border: 3px;
 }
 .photo:nth-child(3n+3) {
-border: 3px;
+    border: 3px;
 }
 
 @media (max-width: 768px) {
-.gallery {
-grid-template-columns: repeat(2, 1fr); /_ 2 columns for tablets _/
-}
-.photo img {
-height: 150px; /_ Adjust height for smaller screens _/
-}
+    .gallery {
+        /* 2 columns for tablets */
+        grid-template-columns: repeat(2, 1fr); 
+    }
+    .photo img {
+        /* adjust height for smaller screens */
+        height: 150px; 
+    }
 }
 
-/_ Responsive adjustments for mobile phones _/
+/*mobile phone responsiveness*/
 @media (max-width: 480px) {
-.gallery {
-grid-template-columns: 1fr; /_ 1 column for mobile phones _/
+    .gallery {
+        /* 1 column for mobile phones */
+        grid-template-columns: 1fr; 
+    }
+    .photo img {
+        /* height for mobile screens */
+        height: 200px; 
+    }
 }
-.photo img {
-height: 200px; /_ Adjust height for mobile screens _/
+
+.terminal {
+    /* dark gray style similar to iTerm's default background */
+    background-color: #2d2d2d; 
+    padding: 20px;
+    font-family: "Menlo", "Monaco", "Consolas", "Courier New", monospace;
+    /* white  */
+    color: #fff; 
+    border-radius: 5px;
 }
+
+.terminal-text {
+    margin: 0;
+}
+
+.cursor {
+    display: inline-block;
+     /* white */
+    background-color: #fff;
+    width: 8px;
+    animation: blink 1s step-start 0s infinite;
+}
+
+@keyframes blink {
+    50% {
+        background-color: transparent;
+    }
 }
 </style>
 
+<div class="terminal">
+        <h1 class="terminal-text">$ ls /fun<span class="cursor">|</span></h1>
+    </div>
+
+<p></p>
+
 <div class="gallery">
     <!-- row 1-->
-    <div class="photo photo-left">
+    <div class="photo photo">
         <img src="/photos/fun/family.jpg">
         <p>Winter with the family = skiing break</p>
     </div>
@@ -83,15 +119,19 @@ height: 200px; /_ Adjust height for mobile screens _/
         <img src="/photos/fun/chess.jpeg">
         <p>Chess: 10 years to realize it's not for me</p>
     </div>
-    <div class="photo photo-middle">
+    <div class="photo photo-right">
         <img src="/photos/fun/jetski.jpeg">
         <p>Dad got me into jetskis</p>
     </div>
-    <div class="photo photo-right">
+    <!-- row 2-->
+    <div class="photo photo-left">
+        <img src="/photos/fun/guns.jpg">
+        <p>Dad also got me into guns when I was 13</p>
+    </div>
+    <div class="photo photo-middle">
         <img src="/photos/fun/football.jpg">
         <p>High school is my football era</p>
     </div>
-    <!-- row 2-->
     <div class="photo photo-left">
         <img src="/photos/fun/gang.jpg">
         <p>With the boys</p>
