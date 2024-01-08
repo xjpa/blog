@@ -80,7 +80,7 @@ height: 200px; /_ Adjust height for mobile screens _/
         <p>Winter with the family = skiing break</p>
     </div>
     <div class="photo photo-middle">
-        <img src="https://i.imgur.com/R7rVAri.jpg">
+        <img src="/photos/fun/chess.jpeg">
         <p>Chess: 10 years to realize it's not for me</p>
     </div>
     <div class="photo photo-middle">
