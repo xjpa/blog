@@ -34,7 +34,7 @@ Just as each strike of the hammer hones the sword, it also forges the swordsmith
 }
 </style>
 
-<input type="text" id="searchInput" placeholder="Search projects...">
+<input type="text" id="searchInput" placeholder="Search projects (e.g. python, webapp, ML, distributed, visualization)">
 <div id="resultCount"></div>
 <p></p>
 <script>

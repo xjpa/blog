@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Unknown Pleasures'
-description: "learning matplotlib by building something like the album art of Joy Division's Unknown Pleasures"
+description: "learning matplotlib by building a visualization of the album art of Joy Division's Unknown Pleasures"
 category: articles
 tags: [hacking, project-viz]
 comments: true
