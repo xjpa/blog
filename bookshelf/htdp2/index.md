@@ -23,4 +23,38 @@ This book is being recommended over other classics like Robert Martin's [Clean C
 
 - How to Code: Complex Data: (<a href="/bookshelf/htdp2/course/complex-data">link</a>)
 
+## Racket Quirks
+
+- <p>if statements in racket must have an else, just like in other languages like haskell. Java, Python, etc. the else is optional</p>
+
+```racket
+; style
+(if condition
+    then-expr
+    else-expr)
+
+;; example
+; i had to put the "" as the else expression
+(define (string-first string)
+  (if (> (string-length string) 0)
+      (substring string 0 1) ""))
+```
+
+- <p>in racket, cant use <code>=</code> to compare booleans as it's only used for numbers, thus i have to use <code>eq?</code></p>
+
+```racket
+;; with eq?
+(define (==> sunny friday)
+  (if (or (eq? sunny #false) (eq? friday #true))
+      #true
+      #false))
+
+;; alternatively, with not
+(define (==> sunny friday)
+  (if (or (not sunny) friday)
+      #true
+      #false
+  ))
+```
+
 <a href="/bookshelf">⬅️ back to bookshelf</a>

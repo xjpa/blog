@@ -134,7 +134,7 @@ title: Fun
     </div>
     <div class="photo photo-left">
         <img src="/photos/fun/gang.jpg">
-        <p>With the boys</p>
+        <p>The Crew: I'm the 4th from the left</p>
     </div>
     <div class="photo photo-middle">
         <img src="/photos/fun/mydoggo.jpg">

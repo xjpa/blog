@@ -1,8 +1,8 @@
 ---
 layout: post
-title: 'HTML'
-description: 'asssssssss'
-date: 2024-01-07 15:30:00 +0000
+title: 'Data Types'
+description: ''
+date: 2024-01-14 15:30:00 +0000
 category: articles
 tags: [web]
 comments: true

@@ -9,6 +9,37 @@ These are notes I took while going through the HTDP book and its exercises.
 
 <img src="/photos/books/htdp2.jpg" height ="300">
 
+FUNCTIONS
+
+- Programs are functions
+
+- function definition in BSL
+
+```racket
+;; syntax
+(define (FunctionName Variable1 Variable2)
+        Expression)
+```
+
+- <p>example, function g with 2 parameters, x an y, where the expression is adding them both then + 2</p>
+
+```racket
+;; example
+(define (g x y)
+        (+ x y 2))
+;; usage
+(g 2 5) ;; output 9
+```
+
+- <p>constant definition</p>
+
+```racket
+;; defining a variable called x
+;; variables arent data, they REPRESENT data.
+;; thus the ff means "x stands for 2"
+(define x 2)
+```
+
 COMPOSITION and AUXILIARY
 
 - Typically, programs consist of a main function as well as other programs that turns the output of 1 function as input for another
