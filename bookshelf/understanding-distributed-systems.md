@@ -15,7 +15,7 @@ Also, I do see some benefits of reading this book as a way to like "skim" the fi
 
 ## Notes
 
-Note that my notes also include things that arent from the book, as my process is basically
+My notes also include things that arent from the book, as my process is basically
 
 1. Read Book
 
@@ -24,6 +24,8 @@ Note that my notes also include things that arent from the book, as my process i
 3. Research them on the net
 
 4. Summarize (as notes)
+
+As the book is pretty short, I had to add a few more details from research to my notes here
 
 <center><h1>Introduction</h1></center>
 
@@ -69,8 +71,54 @@ Note that my notes also include things that arent from the book, as my process i
 
 <center><h1>I. Communication</h1></center>
 <center><h1>II. Coordination</h1></center>
+
+- TWO GENERALS PROBLEM: [wikipedia](https://en.wikipedia.org/wiki/Two_Generals%27_Problem)
+
 <center><h1>III. Scalability</h1></center>
+
+- LOAD: performance of a system is about how it can handle load (system resources like CPU, memory, bandwidth)
+
+- PERFORMANCE: in the book, is measured by throughput and response time
+
+- THROUGHPUT: number of requests per second (RPS) by the app
+
+- RESPONSE TIME: the time between sending a request to the app and receiving a response.
 <center><h1>IV. Resiliency</h1></center>
+
+- RESILIENT: about doing the job even when failures happen. At scale, many components can fail like nodes crashing, network links severed, data corruption, security vulnerabilities, human errors, environmental factors like natural disasters affecting physical infra, dependency failures like 3rd party APIs failing, poorly optimized queries/algorithms, service orchestration challenges like with microservices or service discovery
+
+- Availability Nines
+
+| Availability         | Downtime Per Day |
+| -------------------- | ---------------- |
+| 90% (One Nine)       | 2.40 hours       |
+| 99% (Two Nines)      | 14.40 minutes    |
+| 99.9% (Three Nines)  | 1.44 minutes     |
+| 99.99% (Four Nines)  | 8.64 seconds     |
+| 99.999% (Five Nines) | 864 milliseconds |
+
+90% Availability ("One Nine"): Downtime Per Day: 2.4 hours
+
+This level of availability is generally considered low for most services.
+
+99% Availability ("Two Nines"): Downtime Per Day: 14.4 minutes
+
+This is a basic level of reliability for many business applications.
+
+99.9% Availability ("Three Nines"): Downtime Per Day: 1.44 minutes
+
+Often considered a good balance between cost and reliability for many services.
+
+99.99% Availability ("Four Nines"): Downtime Per Day: 8.64 seconds
+
+This is a higher standard of reliability, common in critical business operations.
+
+99.999% Availability ("Five Nines"): Downtime Per Day: 864 milliseconds
+
+This is considered near-perfect availability, often sought after in mission-critical systems where downtime is extremely costly.
+
+- P99 vs Availability Nines: Note that the Nines are different to percentile metrics like P99 as P99 is a measurement of how systems perform under load, in particular response times and for measuring perf of tail end users. Availability Nines are for the uptime. P99 is more for the scalability challenge. Although it is quite relevant to resiliency as it might reflect the system under stress/failure conditions, which is why i brought it up here (as well as I sometimes mix the two up)
+
 <center><h1>V. Maintanability</h1></center>
 
 <a href="/bookshelf">⬅️ back to bookshelf</a>
