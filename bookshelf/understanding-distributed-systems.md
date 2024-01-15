@@ -3,6 +3,22 @@ layout: default
 title: Understanding Distributed Systems
 ---
 
+<style>
+      table {
+        font-size: 19px;
+        border-collapse: collapse;
+        width: 100%;
+      }
+      th, td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: left;
+      }
+      th {
+        background-color: #f2f2f2;
+      }
+    </style>
+
 ## Understanding Distributed Systems
 
 <img src="https://m.media-amazon.com/images/I/71rlI0H7QsL._SY522_.jpg" height="300">
