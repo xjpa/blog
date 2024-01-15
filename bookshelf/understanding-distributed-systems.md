@@ -4,20 +4,20 @@ title: Understanding Distributed Systems
 ---
 
 <style>
-      table {
-        font-size: 19px;
-        border-collapse: collapse;
-        width: 100%;
-      }
-      th, td {
-        border: 1px solid black;
-        padding: 8px;
-        text-align: left;
-      }
-      th {
-        background-color: #f2f2f2;
-      }
-    </style>
+  table {
+    font-size: 19px;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+  th {
+    background-color: #f2f2f2;
+  }
+</style>
 
 ## Understanding Distributed Systems
 
