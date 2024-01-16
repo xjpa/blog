@@ -161,8 +161,6 @@ int main()
 
 - `#include <iostream>` vs `#include <bits/stdc++.h>`: iostream has faster compilation time. but `#include <bits/stdc++.h>` is used a lot in competitive programming for the sake of convenience because it includes a large number of C++ standard library headers, and compilation time doesnt matter in competitive programming (but runtime does)
 
-- fast I/O
-
 ```cpp
 #include <iostream>
 #include <math.h>
