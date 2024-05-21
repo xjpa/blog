@@ -1,0 +1,41 @@
+name: John Patrick Amata
+description: John Patrick Amata
+about: >
+  The road not taken.
+baseurl: '/'
+url: 'http://blog.johnamata.com'
+markdown: kramdown
+excerpt_separator: '<!-- more -->'
+highlighter: rouge
+
+plugins: ['jekyll-paginate', 'jekyll-gist', 'jekyll-feed']
+
+paginate: 5
+
+collections:
+  hacking:
+    output: true
+  python:
+    output: true
+  rand:
+    output: true
+
+logo: '/assets/jpalogo.png'
+disqus_shortname:
+
+rtl: false
+owner:
+  name: jpa
+  avatar: '/assets/jpalogo.png'
+  twitter: #
+  email:
+  # Social networking links used in footer. Update and remove as you like.
+  github: #
+  stackexchange:
+  linkedin:
+  facebook:
+
+google_analytics: 'UA-107698218-1'
+google_verify:
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
