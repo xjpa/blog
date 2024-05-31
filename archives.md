@@ -9,9 +9,9 @@ title: Archives
 <h1>Archives</h1>
 </center>
 
-<p>The list below are only my polished blog posts, my sort of more professional, yet filtered writings.</p>
+<p>The list below is for my polished blog posts — better written, yet curated opinions.</p>
 
-<p><U>ALL POSTS</U>: visit <a href="{{ "/tags" | prepend: site.url }}">blog.johnamata.com/tags</a> to see ALL other writings on this blog, from <a href="/rand">random</a> travels to fleeting  thoughts that I might not agree with today, as one's mind does change quite often.</p>
+<p>RAW THOUGHTS, visit <a href="{{ "/tags" | prepend: site.url }}">blog.johnamata.com/tags</a> to see ALL other writings on this blog, or <a href="/rand">/rand</a> to see my personal posts from my travels to fleeting  thoughts I may not agree with today.</p>
 
 <input type="text" id="searchInput" placeholder="Search">
 
@@ -112,6 +112,7 @@ var description = descriptionCell ? descriptionCell.textContent.toLowerCase() : 
     padding: 10px; 
     font-size: 16px; 
     border: 1px solid #ccc; 
+    background-color: #E7DCD2;
 }
 </style>
 

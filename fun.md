@@ -12,6 +12,7 @@ title: Projects
     <h1>Table of Contents</h1>
     <div class="toc">
     <p><a href="#project1"><u>I</u> Operating System</a></p>
+    <p><a href="#project2"><u>II</u> Graphics Engine</a></p>
     </div>
   </div>
 </div>
@@ -23,19 +24,44 @@ title: Projects
         <div class="project-description">
         <h1>I. starOS</h1>
             <p><i>May 21, 2024</i></p>
-            <p>Stack: C, Assembly</p>
-            <p>Links: <a href="https://github.com/xjpa/starOS">code</a>, <a href="#">blog</a></p>
-            <p>Currently building an operating system from scratch, named after my doggo. Long term project. Likely will be refactored or rebuilt again from scratch multiple times in the future as I learn about better ways to approach operating systems development. The github repo will be more updated than this description, so go check out that one.</p>
+            <p>Stack: C/C++, Assembly</p>
+            <p>Links: <a href="https://github.com/xjpa/starOS">code</a></p>
+            <p>Currently building an operating system from scratch, named after <a href="https://xjpa.github.io/star/" target="_blank">a puppy my parents adopted</a>. Long term project. </p>
         </div>
         <div class="project-screenshot">
             <img src="https://raw.githubusercontent.com/xjpa/starOS/main/hello.png">
         </div>
     </div>
     <div class="additional-details">
+    <p>Likely will be refactored or rebuilt again from scratch multiple times in the future when I learn about better ways to approach operating systems development.  It functions as well as my playground practice for C and C++, so I often switch between the 2 languages. The github repo will be more updated than this description, so go check out that one.</p>
         </div>
 </div>
 
+<div id="project2">
+    <div class="project-container">
+        <div class="project-description">
+        <h1>II. caldera</h1>
+            <p><i>May 31, 2024</i></p>
+            <p>Stack: C/C++, SDL</p>
+            <p>Links: <a href="https://github.com/xjpa/caldera">code</a></p>
+            <p>Learning to build a 3d graphics engine</p>
+        </div>
+        <div class="project-screenshot">
+        </div>
+    </div>
+    <div class="additional-details">
+    </div>
+</div>
+
+<div>
+<hr>
+<center>
+<p>see <code>/<a href="/hacking">hacking</a></code> for random stuff </p>
+</center>
+</div>
+
 <style>
+/* Existing styles */
 .full-width-background {
   position: relative; 
   width: 100vw; 
@@ -71,11 +97,14 @@ title: Projects
   text-decoration: none;
   position: relative;
   z-index: 2;
+  display: inline-block;
+  background-size: 100% 0;
+  transition: background-size 0.3s;
 }
 
 .toc a:hover {
-  color: yellow;
-  text-decoration: none;
+  color: black;
+  background-size: 100% 100%;
 }
 
 .project-container {
@@ -90,11 +119,14 @@ title: Projects
 .project-screenshot {
   flex: 1; 
 }
-</style>
 
-<div>
-<hr>
-<center>
-<p>see <code>/<a href="/hacking">hacking</a></code> for random stuff </p>
-</center>
-</div>
+/* New styles for mobile responsiveness */
+@media (max-width: 768px) {
+  .project-container {
+    flex-direction: column;
+  }
+  .project-description, .project-screenshot {
+    width: 100%;
+  }
+}
+</style>

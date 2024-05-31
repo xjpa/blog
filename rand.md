@@ -45,6 +45,7 @@ These are my more candid random posts, some of them from my older blogs like tho
     padding: 10px; 
     font-size: 16px; 
     border: 1px solid #ccc; 
+    background-color: #E7DCD2;
 }
 </style>
 
