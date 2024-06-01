@@ -12,10 +12,11 @@ title: Bookshelf
 <h2>Software Engineering</h2>
 <p></p>
 <p></p>
-<a href="/bookshelf/ddia" target="_blank"> <img src="/photos/books/ddia.jpeg" height="300"></a>
-<a href="/bookshelf/web-scalability-for-startup-engineers" target="_blank"> <img src="/photos/books/web-scalability-for-startup-engineers.jpeg" height="300"></a>
-<a href="/bookshelf/understanding-distributed-systems" target="_blank"> <img src="https://m.media-amazon.com/images/I/71rlI0H7QsL._SY522_.jpg" height="300"></a>
-<a href="/bookshelf/mythical-man-month" target="_blank"> <img src="/photos/books/mythical-man-month.jpeg" height ="300"></a>
+<a href="/bookshelf/practical-typography" target="_blank"> <img src="/photos/books/practical-typography.jpeg" height="300"></a> 
+<a href="/bookshelf/ddia" target="_blank"> <img src="/photos/books/ddia.jpeg" height="300"></a> 
+<a href="/bookshelf/web-scalability-for-startup-engineers" target="_blank"> <img src="/photos/books/web-scalability-for-startup-engineers.jpeg" height="300"></a> 
+<a href="/bookshelf/understanding-distributed-systems" target="_blank"> <img src="https://m.media-amazon.com/images/I/71rlI0H7QsL._SY522_.jpg" height="300"></a> 
+<a href="/bookshelf/mythical-man-month" target="_blank"> <img src="/photos/books/mythical-man-month.jpeg" height ="300"></a> 
 </div>
 
 <div>
@@ -27,7 +28,8 @@ title: Bookshelf
 <div>
 <h2>Mental Models</h2>
 <p></p>
-<a href="/bookshelf/potter-methods-of-rationality" target="_blank"><img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1659761696i/10016013.jpg" height ="300"></a>
+<a href="/bookshelf/naval" target="_blank"><img src="/photos/books/naval.jpeg" height ="300"></a> 
+<a href="/bookshelf/potter-methods-of-rationality" target="_blank"><img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1659761696i/10016013.jpg" height ="300"></a> 
 </div>
 
 <div>

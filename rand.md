@@ -3,9 +3,9 @@ layout: default
 title: Recommend
 ---
 
-# rand()
+<h1 style="font-family: monospace;">rand()</h1>
 
-These are my more candid random posts, some of them from my older blogs like those at wordpress. Mostly containing some glimpses of my life, some of my travels, and random thoughts at the time.
+These are my more candid random posts, the early ones <2024 are selected posts from my older blogs such as those at wordpress and blogger. They mostly contain some glimpses of my life, some of my travels, and random thoughts at the time. And so -- [BEWARE](https://en.wiktionary.org/wiki/abandon_hope_all_ye_who_enter_here).
 
 <style>
 .table-table {
