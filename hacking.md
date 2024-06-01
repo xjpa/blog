@@ -33,6 +33,7 @@ The following is a list of my personal, side projects I built on my journey to l
     padding: 10px; 
     font-size: 16px; 
     border: 1px solid #ccc; 
+    background-color: #E7DCD2;
 }
 </style>
 
