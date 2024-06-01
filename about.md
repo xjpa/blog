@@ -61,6 +61,6 @@ Your browser does not support the audio element.
 	  <big><strong>Hello!</strong></big> I'm <big><span style="font-family: 'Averia Serif Libre', serif;">John</span></big> but my friends call me Ice 🧊 
 </p>
 <p><a href="https://www.theregister.com/2022/11/16/musk_twitter_ultimatum/" target="_blank">hardcore</a>, <a href="https://web.archive.org/web/20231020192708/https://www.paulgraham.com/gba.html" target="_blank">hacker</a> learning to be <a href="https://steve-yegge.blogspot.com/2008/06/done-and-gets-things-smart.html" target="_blank">done and get things smart</a></p>
-<p>tech: i'm interested in <a href="https://jack-vanlightly.com/blog/2024/5/7/learning-and-reviewing-system-internals-tactics-and-psychology" target="_blank">systems</a>, <a href="" target="_blank">graphics</a>, databases, and <a href="https://www.alignmentforum.org/s/Rm6oQRJJmhGCcLvxh/p/i3BTagvt3HbPMx6PN" target="_blank">AI</a></p>
+<p>tech: into <a href="https://jack-vanlightly.com/blog/2024/5/7/learning-and-reviewing-system-internals-tactics-and-psychology" target="_blank">systems</a>, <a href="#" target="_blank">graphics</a>, <a href="#" target="_blank">data stores</a>, <a href="#" target="_blank">languages</a>, and <a href="#" target="_blank">AI</a></p>
 <p>i started this blog because <a href="/articles/2024/05/30/why-i-write" target="_blank">writing makes you more curious</a></p>
 <p>feel free to send emails at &lt;<code>j+p@johnamata.com</code>&gt;</p>
