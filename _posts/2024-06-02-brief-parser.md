@@ -7,7 +7,7 @@ tags: [language-design]
 comments: true
 ---
 
-A week ago there was a post on parsers at the [r/pinoyprogrammer](https://reddit.com/r/PinoyProgrammer/) sub that went:
+Five days ago there was a post on parsers at the [r/pinoyprogrammer](https://reddit.com/r/PinoyProgrammer/) sub that went:
 
 ◉ [How to implement a parser for a toy compiler?](https://reddit.com/r/PinoyProgrammer/comments/1d29495/how_to_implement_a_parser_for_a_toy_compiler/)
 
