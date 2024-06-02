@@ -49,7 +49,7 @@ But the abyss does not see you back, YOU see the abyss.
 
 You interpret everything. Your thoughts shape how you perceive the abyss, the world around you.
 
-What you need to do is get acquainted with the world of the seen, the tangible. You need an opponent, an imminent danger. Like talking to that hot friendly chick you see -- if she rejects you, it's fine, you can course correct. But if you didn't talk to her, you're cursed to live in your imagination, a world of "what ifs," of ideas and theory that'll bog you down in the end reading up voluminous incel advice and Andrew Tate dating advice videos.
+What you need to do is get acquainted with the world of the seen, the tangible. You need an opponent, an imminent danger. Like talking to that hot friendly chick you see -- if she rejects you, it's fine, you can course correct. But if you didn't talk to her, you're cursed to live in your imagination, a world of "what ifs," of ideas and theory that'll bog you down in the end turning you into one of those lost men looking up voluminous incel advice and Andrew Tate dating advice videos on social media
 
 So let's put our ideas out there, go build some resilience.
 
