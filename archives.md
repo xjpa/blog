@@ -112,7 +112,7 @@ var description = descriptionCell ? descriptionCell.textContent.toLowerCase() : 
     padding: 10px; 
     font-size: 16px; 
     border: 1px solid #ccc; 
-    background-color: #E7DCD2;
+    background-color: #e5d8cd;
 }
 </style>
 
