@@ -7,15 +7,17 @@ tags: [language-design]
 comments: true
 ---
 
-Five days ago there was a post on parsers at the [r/pinoyprogrammer](https://reddit.com/r/PinoyProgrammer/) sub that went:
+Five days ago there was a post on parsers at a forum I was in that went:
 
-◉ [How to implement a parser for a toy compiler?](https://reddit.com/r/PinoyProgrammer/comments/1d29495/how_to_implement_a_parser_for_a_toy_compiler/)
+◉ How to implement a parser?
 
 <!-- more -->
 
-I dont know much about parsers... so, let's talk about parsers 💀
+Now I dont know much about parsers... so, let's talk about parsers 💀
 
 After all it gives me a good excuse to learn it too
+
+So after some moments of brief studying...
 
 Basically, a parser takes a stream of data and turns it into a structured format, often an Abstract Syntax Tree (AST). This stream of data is usually a series of tokens—tiny chunks of information tagged with what they represent in the language
 
